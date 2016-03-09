@@ -1,8 +1,6 @@
 ![cryptomator-ios](cryptomator-ios.png)
 
-[![Twitter](https://img.shields.io/badge/twitter-@Cryptomator-blue.svg?style=flat)](http://twitter.com/Cryptomator)
-
-Cryptomator for iOS is currently in beta status. If you would like to try it out, subscribe to our newsletter at [cryptomator.org](https://cryptomator.org/#newsletter).
+Cryptomator for iOS is available on the App Store: [Download Cryptomator for iOS](https://itunes.apple.com/app/cryptomator/id953086535)
 
 If you have any issues, please [look at the open issues](https://github.com/cryptomator/cryptomator-objc-cryptor/issues) first. If your issue hasn't been reported yet, [submit a new issue](https://github.com/cryptomator/cryptomator-objc-cryptor/issues/new).
 
