@@ -1,0 +1,180 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Created by Tobias Hagemann on 19/02/15.
+  Copyright (c) 2015 setoLabs. All rights reserved.
+*/
+
+"common.ok" = "OK";
+"common.cancel" = "Abbrechen";
+"common.yes" = "Ja";
+"common.no" = "Nein";
+"common.inQuotes" = "„%@“";
+
+/* CryptomatorCommon */
+
+"alert.unableToAuthenticate.title" = "Authentifizierung nicht möglich";
+"alert.unableToAuthenticate.message" = "Bitten authentifizieren Sie sich bei %@ mit der Cryptomator-App.";
+"alert.unableToUploadFile.title" = "Datei hochladen nicht möglich";
+"alert.unableToUploadFile.message" = "Sie haben keinen Tresor eingerichtet. Bitte legen Sie zuerst einen Tresor mit der Cryptomator-App an.";
+"alert.replaceFile.title" = "Datei ersetzen?";
+"alert.replaceFile.message" = "Eine Datei namens \"%@\" existiert bereits. Wollen Sie diese ersetzen?";
+
+"authentication.iCloudDrive.progressStatus" = "Initialisiere iCloud Drive…";
+"authentication.oneDrive.progressStatus" = "Initialisiere OneDrive…";
+
+"vault.defaultName" = "Tresor";
+"vault.rename.progressStatus" = "Benenne Tresor um…";
+"vault.move.progressStatus" = "Verschiebe Tresor…";
+"vault.create.progressStatus" = "Lege Tresor an…";
+"vault.lock" = "Tresor sperren";
+
+"vaults.title" = "Cryptomator";
+"vaults.add.alreadyAdded.title" = "Bereits vorhanden";
+"vaults.add.alreadyAdded.message" = "„%@“ wurde bereits hinzugefügt.";
+"vaults.remove.confirmation.title" = "Dieser Vorgang wird den Tresor nur aus dieser Liste entfernen und nicht tatsächlich löschen. Sind Sie sicher, dass Sie „%@“ entfernen wollen?";
+"vaults.remove.confirmation.remove" = "Tresor entfernen";
+
+"folder.rename.progressStatus" = "Benenne Ordner um…";
+"folder.move.progressStatus" = "Verschiebe Ordner…";
+"folder.delete.confirmation.title" = "Dieser Vorgang wird den gesamten Ordnerinhalt löschen. Sind Sie sicher, dass Sie „%@“ löschen wollen?";
+"folder.delete.confirmation.delete" = "Ordner löschen";
+"folder.delete.progressStatus" = "Lösche Ordner…";
+"folder.create" = "Ordner anlegen";
+"folder.create.progressStatus" = "Lege Ordner an…";
+
+"file.lastModified" = "zuletzt modifiziert: %@";
+"file.download.progressStatus" = "Lade Datei…";
+"file.download.progressStatus.downloading" = "Lade Datei herunter…";
+"file.download.progressStatus.authenticating" = "Authentifiziere Datei…";
+"file.download.progressStatus.decrypting" = "Entschlüssele Datei…";
+"file.authentication.failed" = "Warnung: MAC-Authentifizierung fehlgeschlagen\n\nCryptomator hat kompromittierte Daten entdeckt.";
+"file.authentication.failed.continue" = "Fortfahren, ich verspreche, vorsichtig zu sein";
+"file.authentication.failed.learnMore" = "Mehr erfahren";
+"file.upload" = "Datei hochladen";
+"file.upload.progressStatus" = "Speichere Datei…";
+"file.upload.progressStatus.encrypting" = "Verschlüssele Datei…";
+"file.upload.progressStatus.uploading" = "Lade Datei hoch…";
+"file.rename.progressStatus" = "Benenne Datei um…";
+"file.move.progressStatus" = "Verschiebe Datei…";
+"file.delete.confirmation.title" = "Sind Sie sicher, dass Sie „%@“ löschen wollen?";
+"file.delete.confirmation.delete" = "Datei löschen";
+"file.delete.progressStatus" = "Lösche Datei…";
+
+"photo.filename" = "Foto %@.jpg";
+"video.filename" = "Video %@.mov";
+"text.filename" = "Text %@.txt";
+
+"directoryBrowser.footer.emptyFolder" = "Ordner ist leer";
+"directoryBrowser.error.notFound.description" = "„%@“ konnte nicht gefunden werden.";
+"directoryBrowser.error.alreadyExists.description" = "„%@“ existiert bereits.";
+"directoryBrowser.error.uploadFile.description" = "„%@“ konnte nicht hochgeladen werden.";
+"directoryBrowser.error.procedureCanceled.description" = "Vorgang abgebrochen.";
+
+"filenameSetter.title.renameVault" = "Tresor umbenennen";
+"filenameSetter.title.renameFolder" = "Ordner umbenennen";
+"filenameSetter.title.renameFile" = "Datei umbenennen";
+"filenameSetter.title.createVault" = "Tresor anlegen";
+"filenameSetter.title.createFolder" = "Ordner anlegen";
+"filenameSetter.rename" = "Umbenennen";
+"filenameSetter.create" = "Anlegen";
+"filenameSetter.filename.vault" = "Tresorname";
+"filenameSetter.filename.folder" = "Ordnername";
+"filenameSetter.filename.file" = "Dateiname";
+
+"locationChooserVaults.title" = "Tresor auswählen";
+"locationChooser.prompt" = "Wählen Sie einen Ablageort aus.";
+"locationChooser.choose" = "Auswählen";
+"locationChooser.warning.sameLocation" = "Sie haben versucht, den gleichen Ablageort auszuwählen.";
+
+"unlock.touchId" = "„%@“ entsperren";
+"unlock.progressStatus" = "Entsperre…";
+"unlock.unlock" = "Entsperren";
+"unlock.password" = "Passwort";
+"unlock.versionMismatch.title" = "Versionskonflikt";
+"unlock.versionMismatch.message" = "Dieser Tresor wird nicht unterstützt, da dieser mit einer anderen Version von Cryptomator erstellt wurde.";
+"unlock.wrongPassword.title" = "Falsches Passwort";
+"unlock.wrongPassword.message" = "Sie haben ein falsches Passwort eingegeben. Bitte versuchen Sie es erneut!";
+"unlock.invalidMasterKey.title" = "Ungültiger Masterkey";
+"unlock.invalidMasterKey.message" = "Es ist ein Fehler mit dem Masterkey aufgetreten. Bitte wenden Sie sich an unseren Support!";
+
+"fileUpload.title" = "In Cryptomator speichern";
+"fileUpload.file" = "Datei";
+"fileUpload.file.filename" = "Dateiname";
+"fileUpload.uploadLocation" = "Speicherort";
+"fileUpload.uploadLocation.locationChooser" = "Ordner auswählen…";
+
+/* Cryptomator */
+
+"migration.askToUpgrade.title" = "Aktualisierung benötigt";
+"migration.askToUpgrade.message" = "Dieser Tresor muss auf ein neues Format aktualisiert werden. „%@“ wird in „%@“ umbenannt.";
+"migration.proceed" = "Aktualisieren";
+"migration.progressStatus" = "Aktualisiere…";
+
+"vaultBrowser.uploadFile.photos" = "Fotos";
+"vaultBrowser.uploadFile.progressStatus" = "Vorbereiten…";
+"vaultBrowser.uploadFile.nothingUploadedWarning" = "Es wurde nichts hochgeladen.";
+
+"settings.title" = "Einstellungen";
+"settings.autoLock" = "Automatisch sperren";
+"settings.autoLock.instant" = "Sofort";
+"settings.autoLock.after1Minute" = "1 Minute";
+"settings.autoLock.after2Minutes" = "2 Minuten";
+"settings.autoLock.after5Minutes" = "5 Minuten";
+"settings.autoLock.after10Minutes" = "10 Minuten";
+"settings.cloudServices" = "Cloud-Dienste";
+"settings.touchId" = "Touch ID";
+
+"cloudServicesSettings.title" = "Cloud-Dienste";
+"cloudServicesSettings.row.initialState" = "Initialisiere %@…";
+"cloudServicesSettings.row.loggedOutState" = "In %@ einloggen";
+"cloudServicesSettings.row.loggedInState" = "Von %@ abmelden";
+"cloudServicesSettings.section.footer.loggedInState" = "Eingeloggt als %@";
+
+"touchIdSettings.title" = "Touch ID";
+"touchIdSettings.activate" = "Touch ID aktivieren";
+
+"addVault.title" = "Tresor hinzufügen";
+"addVault.onboarding" = "Verschlüsseln Sie Ihre Cloud, indem Sie einen neuen Tresor anlegen oder einen vorhandenen hinzufügen.";
+"addVault.createNewVault" = "Neuen Tresor anlegen";
+"addVault.addExistingVault" = "Vorhandenen Tresor hinzufügen";
+
+"cloudServiceChooser.title" = "Cloud-Dienst auswählen";
+
+"passwordSetter.title" = "Passwort setzen";
+"passwordSetter.password" = "Passwort";
+"passwordSetter.retypedPassword" = "Passwort wiederholen";
+
+"vaultChooser.prompt" = "Wählen Sie einen vorhandenen Tresor aus.";
+"vaultChooser.footer.isVault" = "Dies ist ein Tresor. Wählen Sie die „masterkey.cryptomator“-Datei aus, um diesen Tresor hinzuzufügen.";
+
+/* XLForm */
+
+"XLFormViewController_ValidationErrorTitle" = "Hoppla!";
+"%@ can't be empty" = "%@ muss ausgefüllt werden.";
+
+"notEqualToOldFilenameValidator.invalidMessage" = "%@ kann nicht derselbe sein wie der alte.";
+"allowedCharactersInFilenameValidator.invalidMessage" = "%@ beinhaltet unerlaubte Zeichen.";
+"uniqueFilenamesValidator.invalidMessage" = "Dateinamen müssen eindeutig sein, bitte benennen Sie die Duplikate um.";
+"matchingPasswordsValidator.invalidMessage" = "Passwort stimmt nicht mit dem wiederholten Passwort überein.";
+
+/* Mock */
+
+"mock.vault1.name" = "Top Secret";
+"mock.vault1.path" = "/Top Secret.cryptomator";
+"mock.vault2.name" = "Projekt X";
+"mock.vault2.path" = "/Projekte/Projekt X.cryptomator";
+"mock.vault3.name" = "Verträge";
+"mock.vault3.path" = "/Dokumente/Verträge.cryptomator";
+"mock.vault4.name" = "Reise nach Bonn";
+"mock.vault4.path" = "/Urlaub/Reise nach Bonn.cryptomator";
+
+"mock.file1.name" = "Buchhaltung.numbers";
+"mock.file2.name" = "Abschlusspräsentation.key";
+"mock.file3.name" = "Hausarbeit.docx";
+"mock.file4.name" = "Personalausweis.pdf";
+"mock.file5.name" = "Nyan Cat.mov";
+"mock.folder1.name" = "Geheimprojekt";
+"mock.folder2.name" = "Rechnungen";
+"mock.folder3.name" = "Zertifikate";

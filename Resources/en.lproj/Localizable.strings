@@ -1,0 +1,180 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Created by Tobias Hagemann on 19/02/15.
+  Copyright (c) 2015 setoLabs. All rights reserved.
+*/
+
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.inQuotes" = "\"%@\"";
+
+/* CryptomatorCommon */
+
+"alert.unableToAuthenticate.title" = "Unable to Authenticate";
+"alert.unableToAuthenticate.message" = "Please authenticate to %@ with the Cryptomator app.";
+"alert.unableToUploadFile.title" = "Unabled to Upload File";
+"alert.unableToUploadFile.message" = "You haven't set up any vaults. Please create a new vault with the Cryptomator app first.";
+"alert.replaceFile.title" = "Replace File?";
+"alert.replaceFile.message" = "A file named \"%@\" already exists. Do you want to replace it?";
+
+"authentication.iCloudDrive.progressStatus" = "Initializing iCloud Drive…";
+"authentication.oneDrive.progressStatus" = "Initializing OneDrive…";
+
+"vault.defaultName" = "Vault";
+"vault.rename.progressStatus" = "Renaming Vault…";
+"vault.move.progressStatus" = "Moving Vault…";
+"vault.create.progressStatus" = "Creating Vault…";
+"vault.lock" = "Lock Vault";
+
+"vaults.title" = "Cryptomator";
+"vaults.add.alreadyAdded.title" = "Already Exists";
+"vaults.add.alreadyAdded.message" = "\"%@\" has already been added.";
+"vaults.remove.confirmation.title" = "This action will only remove the vault from this list and not delete it physically. Are you sure you want to remove \"%@\"?";
+"vaults.remove.confirmation.remove" = "Remove this Vault";
+
+"folder.rename.progressStatus" = "Renaming Folder…";
+"folder.move.progressStatus" = "Moving Folder…";
+"folder.delete.confirmation.title" = "This will delete all of the folder's contents. Are you sure you want to delete \"%@\"?";
+"folder.delete.confirmation.delete" = "Delete this Folder";
+"folder.delete.progressStatus" = "Deleting Folder…";
+"folder.create" = "Create Folder";
+"folder.create.progressStatus" = "Creating Folder…";
+
+"file.lastModified" = "last modified: %@";
+"file.download.progressStatus" = "Loading File…";
+"file.download.progressStatus.downloading" = "Downloading File…";
+"file.download.progressStatus.authenticating" = "Authenticating File…";
+"file.download.progressStatus.decrypting" = "Decrypting File…";
+"file.authentication.failed" = "Warning: MAC authentication failed\n\nCryptomator detected potentially malicious corruptions.";
+"file.authentication.failed.continue" = "Continue, I promise to be careful";
+"file.authentication.failed.learnMore" = "Learn more";
+"file.upload" = "Upload File";
+"file.upload.progressStatus" = "Saving File…";
+"file.upload.progressStatus.encrypting" = "Encrypting File…";
+"file.upload.progressStatus.uploading" = "Uploading File…";
+"file.rename.progressStatus" = "Renaming File…";
+"file.move.progressStatus" = "Moving File…";
+"file.delete.confirmation.title" = "Are you sure you want to delete \"%@\"?";
+"file.delete.confirmation.delete" = "Delete this File";
+"file.delete.progressStatus" = "Deleting File…";
+
+"photo.filename" = "Photo %@.jpg";
+"video.filename" = "Video %@.mov";
+"text.filename" = "Text %@.txt";
+
+"directoryBrowser.footer.emptyFolder" = "Folder is empty";
+"directoryBrowser.error.notFound.description" = "\"%@\" could not be found.";
+"directoryBrowser.error.alreadyExists.description" = "\"%@\" already exists.";
+"directoryBrowser.error.uploadFile.description" = "Uploading \"%@\" failed.";
+"directoryBrowser.error.procedureCanceled.description" = "Procedure canceled.";
+
+"filenameSetter.title.renameVault" = "Rename Vault";
+"filenameSetter.title.renameFolder" = "Rename Folder";
+"filenameSetter.title.renameFile" = "Rename File";
+"filenameSetter.title.createVault" = "Create Vault";
+"filenameSetter.title.createFolder" = "Create Folder";
+"filenameSetter.rename" = "Rename";
+"filenameSetter.create" = "Create";
+"filenameSetter.filename.vault" = "Vault Name";
+"filenameSetter.filename.folder" = "Folder Name";
+"filenameSetter.filename.file" = "Filename";
+
+"locationChooserVaults.title" = "Choose Vault";
+"locationChooser.prompt" = "Choose a destination.";
+"locationChooser.choose" = "Choose";
+"locationChooser.warning.sameLocation" = "You tried to choose the same destination.";
+
+"unlock.touchId" = "Unlock \"%@\"";
+"unlock.progressStatus" = "Unlocking…";
+"unlock.unlock" = "Unlock";
+"unlock.password" = "Password";
+"unlock.versionMismatch.title" = "Version Mismatch";
+"unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
+"unlock.wrongPassword.title" = "Wrong Password";
+"unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
+"unlock.invalidMasterKey.title" = "Invalid Masterkey";
+"unlock.invalidMasterKey.message" = "There is an error with your masterkey. Please ask us for support!";
+
+"fileUpload.title" = "Save to Cryptomator";
+"fileUpload.file" = "File";
+"fileUpload.file.filename" = "Filename";
+"fileUpload.uploadLocation" = "Save Location";
+"fileUpload.uploadLocation.locationChooser" = "Choose Folder…";
+
+/* Cryptomator */
+
+"migration.askToUpgrade.title" = "Migration Needed";
+"migration.askToUpgrade.message" = "This vault needs to be migrated to a newer format. \"%@\" will be renamed to \"%@\".";
+"migration.proceed" = "Migrate";
+"migration.progressStatus" = "Migrating…";
+
+"vaultBrowser.uploadFile.photos" = "Photos";
+"vaultBrowser.uploadFile.progressStatus" = "Preparing…";
+"vaultBrowser.uploadFile.nothingUploadedWarning" = "Nothing has been uploaded.";
+
+"settings.title" = "Settings";
+"settings.autoLock" = "Auto-Lock";
+"settings.autoLock.instant" = "Instant";
+"settings.autoLock.after1Minute" = "1 Minute";
+"settings.autoLock.after2Minutes" = "2 Minutes";
+"settings.autoLock.after5Minutes" = "5 Minutes";
+"settings.autoLock.after10Minutes" = "10 Minutes";
+"settings.cloudServices" = "Cloud Services";
+"settings.touchId" = "Touch ID";
+
+"cloudServicesSettings.title" = "Cloud Services";
+"cloudServicesSettings.row.initialState" = "Initializing %@…";
+"cloudServicesSettings.row.loggedOutState" = "Log In to %@";
+"cloudServicesSettings.row.loggedInState" = "Sign Out from %@";
+"cloudServicesSettings.section.footer.loggedInState" = "Logged in as %@";
+
+"touchIdSettings.title" = "Touch ID";
+"touchIdSettings.activate" = "Activate Touch ID";
+
+"addVault.title" = "Add Vault";
+"addVault.onboarding" = "Encrypt your cloud by creating a new vault or add an existing one.";
+"addVault.createNewVault" = "Create new vault";
+"addVault.addExistingVault" = "Add existing vault";
+
+"cloudServiceChooser.title" = "Choose Cloud Service";
+
+"passwordSetter.title" = "Set Password";
+"passwordSetter.password" = "Password";
+"passwordSetter.retypedPassword" = "Retype Password";
+
+"vaultChooser.prompt" = "Choose an existing vault.";
+"vaultChooser.footer.isVault" = "This is a vault. Select the \"masterkey.cryptomator\" file to add this vault.";
+
+/* XLForm */
+
+"XLFormViewController_ValidationErrorTitle" = "Whoops!";
+"%@ can't be empty" = "%@ can't be empty.";
+
+"notEqualToOldFilenameValidator.invalidMessage" = "%@ can't be the same as the old one.";
+"allowedCharactersInFilenameValidator.invalidMessage" = "%@ contains disallowed characters.";
+"uniqueFilenamesValidator.invalidMessage" = "Filenames have to be unique, please rename the duplicates.";
+"matchingPasswordsValidator.invalidMessage" = "Password doesn't match retyped password.";
+
+/* Mock */
+
+"mock.vault1.name" = "Top Secret";
+"mock.vault1.path" = "/Top Secret.cryptomator";
+"mock.vault2.name" = "Project X";
+"mock.vault2.path" = "/Projects/Project X.cryptomator";
+"mock.vault3.name" = "Contracts";
+"mock.vault3.path" = "/Documents/Contracts.cryptomator";
+"mock.vault4.name" = "Trip to California";
+"mock.vault4.path" = "/Vacations/Trip to California.cryptomator";
+
+"mock.file1.name" = "Accounting.numbers";
+"mock.file2.name" = "Final Presentation.key";
+"mock.file3.name" = "Homework.docx";
+"mock.file4.name" = "Identity Card.pdf";
+"mock.file5.name" = "Nyan Cat.mov";
+"mock.folder1.name" = "Secret Project";
+"mock.folder2.name" = "Bills";
+"mock.folder3.name" = "Certificates";
