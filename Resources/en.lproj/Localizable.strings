@@ -23,6 +23,8 @@
 
 "authentication.iCloudDrive.progressStatus" = "Initializing iCloud Drive…";
 "authentication.oneDrive.progressStatus" = "Initializing OneDrive…";
+"authentication.error.notReachable" = "%@ is not reachable. Try again later!";
+"authentication.error.failed" = "%@ authentication failed.";
 
 "vault.defaultName" = "Vault";
 "vault.rename.progressStatus" = "Renaming Vault…";
@@ -125,22 +127,40 @@
 "settings.autoLock.after10Minutes" = "10 Minutes";
 "settings.cloudServices" = "Cloud Services";
 "settings.touchId" = "Touch ID";
+"settings.appInformation" = "About Cryptomator";
+"settings.supportSite" = "Support Site";
+"settings.sendFeedback" = "Send Feedback";
+"settings.rateApp" = "Rate App";
 
 "cloudServicesSettings.title" = "Cloud Services";
 "cloudServicesSettings.row.initialState" = "Initializing %@…";
 "cloudServicesSettings.row.loggedOutState" = "Log In to %@";
 "cloudServicesSettings.row.loggedInState" = "Sign Out from %@";
 "cloudServicesSettings.section.footer.loggedInState" = "Logged in as %@";
+"cloudServicesSettings.row.multipleAccounts" = "%@ Connections";
+"cloudServicesSettings.row.iCloudDrive" = "iCloud Drive Info";
+"cloudServicesSettings.iCloudDrive.message" = "You can't manage your iCloud Drive account from here. You have to log in and sign out from the iOS settings.";
 
 "touchIdSettings.title" = "Touch ID";
 "touchIdSettings.activate" = "Activate Touch ID";
+
+"appInformation.title" = "Version %@ (%@)";
+
+"supportSite.url" = "https://cryptomator.org/contact/";
+
+"sendFeedback.email" = "support@cryptomator.org";
+"sendFeedback.subject" = "Feedback";
 
 "addVault.title" = "Add Vault";
 "addVault.onboarding" = "Encrypt your cloud by creating a new vault or add an existing one.";
 "addVault.createNewVault" = "Create new vault";
 "addVault.addExistingVault" = "Add existing vault";
 
-"cloudServiceChooser.title" = "Choose Cloud Service";
+"storageTypeChooser.title" = "Choose Cloud Service";
+
+"cloudChooser.footer.empty" = "You haven't set up any %@ connections yet.\nAdd one by tapping the \"+\" button at the top-right.";
+"cloudChooser.remove.confirmation.title" = "Are you sure you want to remove \"%@\"?";
+"cloudChooser.remove.confirmation.remove" = "Remove this Cloud";
 
 "passwordSetter.title" = "Set Password";
 "passwordSetter.password" = "Password";
@@ -148,6 +168,21 @@
 
 "vaultChooser.prompt" = "Choose an existing vault.";
 "vaultChooser.footer.isVault" = "This is a vault. Select the \"masterkey.cryptomator\" file to add this vault.";
+
+/* WebDAV */
+
+"webDavAuthentication.title" = "WebDAV";
+"webDavAuthentication.url" = "URL";
+"webDavAuthentication.username" = "Username";
+"webDavAuthentication.password" = "Password";
+"webDavAuthentication.shouldTrustAllSsl" = "Trust All (SSL)";
+"webDavAuthentication.authenticate.progressStatus" = "Authenticating…";
+
+"webDavClient.error.connectionFailed" = "Connection failed. Please check your data.";
+"webDavClient.error.unsupportedProtocol" = "Server doesn't seem to be a WebDAV server.";
+"webDavClient.error.notFound" = "Resource not found.";
+"webDavClient.error.authFailed" = "Wrong username and/or password.";
+"webDavClient.error.httpStatusCode" = "HTTP error %d.";
 
 /* XLForm */
 
@@ -158,6 +193,8 @@
 "allowedCharactersInFilenameValidator.invalidMessage" = "%@ contains disallowed characters.";
 "uniqueFilenamesValidator.invalidMessage" = "Filenames have to be unique, please rename the duplicates.";
 "matchingPasswordsValidator.invalidMessage" = "Password doesn't match retyped password.";
+"urlHostNotNull.invalidMessage" = "URL is invalid. At least it needs a host.";
+"conformsToUrlScheme.invalidMessage" = "URL is invalid. Only these schemes are allowed: %@";
 
 /* Mock */
 
@@ -169,6 +206,8 @@
 "mock.vault3.path" = "/Documents/Contracts.cryptomator";
 "mock.vault4.name" = "Trip to California";
 "mock.vault4.path" = "/Vacations/Trip to California.cryptomator";
+"mock.vault5.name" = "Photos";
+"mock.vault5.path" = "/Personal/Photos.cryptomator";
 
 "mock.file1.name" = "Accounting.numbers";
 "mock.file2.name" = "Final Presentation.key";

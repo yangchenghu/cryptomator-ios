@@ -19,10 +19,12 @@
 "alert.unableToUploadFile.title" = "Datei hochladen nicht möglich";
 "alert.unableToUploadFile.message" = "Sie haben keinen Tresor eingerichtet. Bitte legen Sie zuerst einen Tresor mit der Cryptomator-App an.";
 "alert.replaceFile.title" = "Datei ersetzen?";
-"alert.replaceFile.message" = "Eine Datei namens \"%@\" existiert bereits. Wollen Sie diese ersetzen?";
+"alert.replaceFile.message" = "Eine Datei namens „%@“ existiert bereits. Wollen Sie diese ersetzen?";
 
 "authentication.iCloudDrive.progressStatus" = "Initialisiere iCloud Drive…";
 "authentication.oneDrive.progressStatus" = "Initialisiere OneDrive…";
+"authentication.error.notReachable" = "%@ ist nicht erreichbar. Versuchen Sie es später erneut!";
+"authentication.error.failed" = "%@-Authentifizierung fehlgeschlagen.";
 
 "vault.defaultName" = "Tresor";
 "vault.rename.progressStatus" = "Benenne Tresor um…";
@@ -125,22 +127,40 @@
 "settings.autoLock.after10Minutes" = "10 Minuten";
 "settings.cloudServices" = "Cloud-Dienste";
 "settings.touchId" = "Touch ID";
+"settings.appInformation" = "Über Cryptomator";
+"settings.supportSite" = "Support-Seite";
+"settings.sendFeedback" = "Feedback senden";
+"settings.rateApp" = "App bewerten";
 
 "cloudServicesSettings.title" = "Cloud-Dienste";
 "cloudServicesSettings.row.initialState" = "Initialisiere %@…";
 "cloudServicesSettings.row.loggedOutState" = "In %@ einloggen";
 "cloudServicesSettings.row.loggedInState" = "Von %@ abmelden";
 "cloudServicesSettings.section.footer.loggedInState" = "Eingeloggt als %@";
+"cloudServicesSettings.row.multipleAccounts" = "%@-Verbindungen";
+"cloudServicesSettings.row.iCloudDrive" = "Info zu iCloud Drive";
+"cloudServicesSettings.iCloudDrive.message" = "Sie können Ihren iCloud Drive-Account nicht von hier verwalten. Um sich einzuloggen und abzumelden, wechseln Sie bitte zu den iOS-Einstellungen.";
 
 "touchIdSettings.title" = "Touch ID";
 "touchIdSettings.activate" = "Touch ID aktivieren";
+
+"appInformation.title" = "Version %@ (%@)";
+
+"supportSite.url" = "https://cryptomator.org/de/contact/";
+
+"sendFeedback.email" = "support@cryptomator.org";
+"sendFeedback.subject" = "Feedback";
 
 "addVault.title" = "Tresor hinzufügen";
 "addVault.onboarding" = "Verschlüsseln Sie Ihre Cloud, indem Sie einen neuen Tresor anlegen oder einen vorhandenen hinzufügen.";
 "addVault.createNewVault" = "Neuen Tresor anlegen";
 "addVault.addExistingVault" = "Vorhandenen Tresor hinzufügen";
 
-"cloudServiceChooser.title" = "Cloud-Dienst auswählen";
+"storageTypeChooser.title" = "Cloud-Dienst auswählen";
+
+"cloudChooser.footer.empty" = "Sie haben bisher noch keine %@-Verbindungen eingerichtet.\nFügen Sie eine über das „+“-Symbol oben rechts hinzu.";
+"cloudChooser.remove.confirmation.title" = "Sind Sie sicher, dass Sie „%@“ entfernen wollen?";
+"cloudChooser.remove.confirmation.remove" = "Cloud entfernen";
 
 "passwordSetter.title" = "Passwort setzen";
 "passwordSetter.password" = "Passwort";
@@ -148,6 +168,21 @@
 
 "vaultChooser.prompt" = "Wählen Sie einen vorhandenen Tresor aus.";
 "vaultChooser.footer.isVault" = "Dies ist ein Tresor. Wählen Sie die „masterkey.cryptomator“-Datei aus, um diesen Tresor hinzuzufügen.";
+
+/* WebDAV */
+
+"webDavAuthentication.title" = "WebDAV";
+"webDavAuthentication.url" = "URL";
+"webDavAuthentication.username" = "Benutzername";
+"webDavAuthentication.password" = "Passwort";
+"webDavAuthentication.shouldTrustAllSsl" = "Allen vertrauen (SSL)";
+"webDavAuthentication.authenticate.progressStatus" = "Authentifiziere…";
+
+"webDavClient.error.connectionFailed" = "Verbindung fehlgeschlagen. Bitte überprüfen Sie Ihre Angaben.";
+"webDavClient.error.unsupportedProtocol" = "Der Server scheint kein WebDAV-Server zu sein.";
+"webDavClient.error.notFound" = "Ressource nicht gefunden.";
+"webDavClient.error.authFailed" = "Benutzername und/oder Passwort falsch.";
+"webDavClient.error.httpStatusCode" = "HTTP-Fehler %d.";
 
 /* XLForm */
 
@@ -158,6 +193,8 @@
 "allowedCharactersInFilenameValidator.invalidMessage" = "%@ beinhaltet unerlaubte Zeichen.";
 "uniqueFilenamesValidator.invalidMessage" = "Dateinamen müssen eindeutig sein, bitte benennen Sie die Duplikate um.";
 "matchingPasswordsValidator.invalidMessage" = "Passwort stimmt nicht mit dem wiederholten Passwort überein.";
+"urlHostNotNull.invalidMessage" = "URL ist ungültig. Diese benötigt zumindest einen Host.";
+"conformsToUrlScheme.invalidMessage" = "URL ist ungültig. Nur diese Schemas sind erlaubt: %@";
 
 /* Mock */
 
@@ -169,6 +206,8 @@
 "mock.vault3.path" = "/Dokumente/Verträge.cryptomator";
 "mock.vault4.name" = "Reise nach Bonn";
 "mock.vault4.path" = "/Urlaub/Reise nach Bonn.cryptomator";
+"mock.vault5.name" = "Fotos";
+"mock.vault5.path" = "/Persönlich/Fotos.cryptomator";
 
 "mock.file1.name" = "Buchhaltung.numbers";
 "mock.file2.name" = "Abschlusspräsentation.key";
