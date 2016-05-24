@@ -20,6 +20,10 @@
 "alert.unableToUploadFile.message" = "You haven't set up any vaults. Please create a new vault with the Cryptomator app first.";
 "alert.replaceFile.title" = "Replace File?";
 "alert.replaceFile.message" = "A file named \"%@\" already exists. Do you want to replace it?";
+"alert.trustSslCertificate.title" = "Invalid SSL Certificate";
+"alert.trustSslCertificate.message" = "The SSL certificate of \"%@\" is invalid. Do you want to trust it anyway?\n\nSHA1: %@";
+"alert.trustSslCertificate.action.trust" = "Trust";
+"alert.trustSslCertificate.action.dontTrust" = "Don't Trust";
 
 "authentication.iCloudDrive.progressStatus" = "Initializing iCloud Drive…";
 "authentication.oneDrive.progressStatus" = "Initializing OneDrive…";
@@ -165,6 +169,7 @@
 "passwordSetter.title" = "Set Password";
 "passwordSetter.password" = "Password";
 "passwordSetter.retypedPassword" = "Retype Password";
+"passwordSetter.footer" = "IMPORTANT: If you forget your password, there is no way to recover your data.";
 
 "vaultChooser.prompt" = "Choose an existing vault.";
 "vaultChooser.footer.isVault" = "This is a vault. Select the \"masterkey.cryptomator\" file to add this vault.";
@@ -175,7 +180,6 @@
 "webDavAuthentication.url" = "URL";
 "webDavAuthentication.username" = "Username";
 "webDavAuthentication.password" = "Password";
-"webDavAuthentication.shouldTrustAllSsl" = "Trust All (SSL)";
 "webDavAuthentication.authenticate.progressStatus" = "Authenticating…";
 
 "webDavClient.error.connectionFailed" = "Connection failed. Please check your data.";
