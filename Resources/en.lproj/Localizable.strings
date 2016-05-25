@@ -16,7 +16,7 @@
 
 "alert.unableToAuthenticate.title" = "Unable to Authenticate";
 "alert.unableToAuthenticate.message" = "Please authenticate to %@ with the Cryptomator app.";
-"alert.unableToUploadFile.title" = "Unabled to Upload File";
+"alert.unableToUploadFile.title" = "Unable to Upload File";
 "alert.unableToUploadFile.message" = "You haven't set up any vaults. Please create a new vault with the Cryptomator app first.";
 "alert.replaceFile.title" = "Replace File?";
 "alert.replaceFile.message" = "A file named \"%@\" already exists. Do you want to replace it?";

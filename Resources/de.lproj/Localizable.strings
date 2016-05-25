@@ -169,7 +169,7 @@
 "passwordSetter.title" = "Passwort setzen";
 "passwordSetter.password" = "Passwort";
 "passwordSetter.retypedPassword" = "Passwort wiederholen";
-"passwordSetter.footer" = "WICHTIG: Falls Sie dieses Passwort vergessen, lassen sich Ihre Daten nicht wiederherstellen.";
+"passwordSetter.footer" = "WICHTIG: Falls Sie Ihr Passwort vergessen, gibt es keine Möglichkeit Ihre Daten wiederherzustellen.";
 
 "vaultChooser.prompt" = "Wählen Sie einen vorhandenen Tresor aus.";
 "vaultChooser.footer.isVault" = "Dies ist ein Tresor. Wählen Sie die „masterkey.cryptomator“-Datei aus, um diesen Tresor hinzuzufügen.";
