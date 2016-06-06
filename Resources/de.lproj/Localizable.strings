@@ -182,10 +182,12 @@
 "webDavAuthentication.password" = "Passwort";
 "webDavAuthentication.authenticate.progressStatus" = "Authentifiziere…";
 
+"webDavClient.error.unsupportedProtocol" = "Der Server scheint nicht WebDAV-kompatibel zu sein.";
 "webDavClient.error.connectionFailed" = "Verbindung fehlgeschlagen. Bitte überprüfen Sie Ihre Angaben.";
-"webDavClient.error.unsupportedProtocol" = "Der Server scheint kein WebDAV-Server zu sein.";
-"webDavClient.error.notFound" = "Ressource nicht gefunden.";
 "webDavClient.error.authFailed" = "Benutzername und/oder Passwort falsch.";
+"webDavClient.error.notFound" = "Ressource „%@“ nicht gefunden.";
+"webDavClient.error.methodNotAllowed" = "HTTP-Methode „%@“ ist nicht erlaubt.";
+"webDavClient.error.conflict" = "Konflikt in der Anfrage für \"%@\" aufgetreten.";
 "webDavClient.error.httpStatusCode" = "HTTP-Fehler %d.";
 
 /* XLForm */
