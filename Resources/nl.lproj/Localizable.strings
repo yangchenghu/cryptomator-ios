@@ -1,0 +1,225 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Created by Tobias Hagemann on 19/02/15.
+  Copyright (c) 2015 setoLabs. All rights reserved.
+*/
+
+"common.ok" = "OK";
+"common.cancel" = "Annuleren";
+"common.yes" = "Ja";
+"common.no" = "Nee";
+"common.inQuotes" = "\"%@\"";
+
+/* CryptomatorCommon */
+
+"alert.unableToAuthenticate.title" = "Authenticatie onmogelijk";
+"alert.unableToAuthenticate.message" = "Gelieve %@ te authenticeren met de Cryptomator app.";
+"alert.unableToUploadFile.title" = "Uploaden van bestand mislukt";
+"alert.unableToUploadFile.message" = "U heeft nog geen kluis. Gelieve eerst een nieuwe kluis met de Cryptomator app te maken.";
+"alert.replaceFile.title" = "Bestand vervangen?";
+"alert.replaceFile.message" = "Een bestand met de naam \"%@\" bestaat al. Wilt u deze overschrijven?";
+"alert.trustSslCertificate.title" = "Ongeldig SSL Certificaat";
+"alert.trustSslCertificate.message" = "Het SSL certificaat van \"%@\" is ongeldig. Wil u het desondanks toch vertrouwen?\n\nSHA1: %@";
+"alert.trustSslCertificate.action.trust" = "Vertrouw";
+"alert.trustSslCertificate.action.dontTrust" = "Niet vertrouwen";
+
+"authentication.iCloudDrive.progressStatus" = "Het gebruik van iCloud Drive voorbereiden…";
+"authentication.oneDrive.progressStatus" = "Het gebruik van OneDrive voorbereiden…";
+"authentication.error.notReachable" = "%@ is niet beschikbaar. Probeer later opnieuw!";
+"authentication.error.failed" = "%@ authenticatie mislukt.";
+
+"vault.defaultName" = "Kluis";
+"vault.rename.progressStatus" = "Hernoemen kluis…";
+"vault.move.progressStatus" = "Verplaatsen kluis…";
+"vault.create.progressStatus" = "Creëren kluis…";
+"vault.lock" = "Vergendel kluis";
+
+"vaults.title" = "Cryptomator";
+"vaults.add.alreadyAdded.title" = "Reeds in gebruik";
+"vaults.add.alreadyAdded.message" = "\"%@\" is reeds toegevoegd.";
+"vaults.remove.confirmation.title" = "Deze opdracht zal enkel de kluis van deze lijst verwijderen en niet de kluis zelf. Weet u zeker dat u \"%@\" van de lijst wilt verwijderen?";
+"vaults.remove.confirmation.remove" = "Verwijder deze kluis";
+
+"folder.rename.progressStatus" = "Hernoemen van map…";
+"folder.move.progressStatus" = "Verplaatsen van map…";
+"folder.delete.confirmation.title" = "Dit zal de gehele mapinhoud wissen. Weet u zeker dat u \"%@\" wilt wissen?";
+"folder.delete.confirmation.delete" = "Verwijder deze map";
+"folder.delete.progressStatus" = "Verwijderen van map…";
+"folder.create" = "Maak map";
+"folder.create.progressStatus" = "Maken van map…";
+
+"file.lastModified" = "laatst gewijzigd: \"%@\"";
+"file.download.progressStatus" = "Inlezen bestand…";
+"file.download.progressStatus.downloading" = "Downloaden bestand…";
+"file.download.progressStatus.authenticating" = "Authenticeren bestand…";
+"file.download.progressStatus.decrypting" = "Decoderen bestand…";
+"file.authentication.failed" = "Waarschuwing: MAC authenticatie mislukt \n\nCryptomator heeft beschadigingen van potentieel kwaadwillende oorsprong gedetecteerd.";
+"file.authentication.failed.continue" = "Verder gaan, ik beloof voorzichtig te zijn";
+"file.authentication.failed.learnMore" = "Meer informatie";
+"file.upload" = "Bestand uploaden";
+"file.upload.progressStatus" = "Bestand opslaan…";
+"file.upload.progressStatus.encrypting" = "Bestand versleutelen";
+"file.upload.progressStatus.uploading" = "Bestand uploaden…";
+"file.rename.progressStatus" = "Bestand hernoemen…";
+"file.move.progressStatus" = "Bestand verplaatsen…";
+"file.delete.confirmation.title" = "Weet u zeker dat u \"%@\" wilt verwijderen?";
+"file.delete.confirmation.delete" = "Verwijder dit Bestand";
+"file.delete.progressStatus" = "Bestand verwijderen…";
+
+"photo.filename" = "Foto %@.jpg";
+"video.filename" = "Video %@.mov";
+"text.filename" = "Tekst %@.txt";
+
+"directoryBrowser.footer.emptyFolder" = "Map is leeg";
+"directoryBrowser.error.notFound.description" = "\"%@\" kon niet gevonden worden.";
+"directoryBrowser.error.alreadyExists.description" = "\"%@\" reeds in gebruik.";
+"directoryBrowser.error.uploadFile.description" = "Het uploaden van \"%@\" is mislukt.";
+"directoryBrowser.error.procedureCanceled.description" = "Procedure geannuleerd.";
+
+"filenameSetter.title.renameVault" = "Hernoem kluis";
+"filenameSetter.title.renameFolder" = "Hernoem Map";
+"filenameSetter.title.renameFile" = "Hernoem Bestand";
+"filenameSetter.title.createVault" = "Creëer Kluis";
+"filenameSetter.title.createFolder" = "Creëer Map";
+"filenameSetter.rename" = "Hernoem";
+"filenameSetter.create" = "Creëer";
+"filenameSetter.filename.vault" = "Kluisnaam";
+"filenameSetter.filename.folder" = "Mapnaam";
+"filenameSetter.filename.file" = "Bestandsnaam";
+
+"locationChooserVaults.title" = "Kies Kluis";
+"locationChooser.prompt" = "Selecteer een bestemming";
+"locationChooser.choose" = "Selecteer";
+"locationChooser.warning.sameLocation" = "U probeerde dezelfde bestemming te selecteren.";
+
+"unlock.touchId" = "Open \"%@\"";
+"unlock.progressStatus" = "Openen…";
+"unlock.unlock" = "Open";
+"unlock.password" = "Wachtwoord";
+"unlock.versionMismatch.title" = "Versieverschil";
+"unlock.versionMismatch.message" = "Ongeschikte kluis. Deze kluis is gemaakt met een andere versie van Cryptomator.";
+"unlock.wrongPassword.title" = "Verkeerd wachtwoord";
+"unlock.wrongPassword.message" = "U heeft een verkeerd wachtwoord ingevoerd. Probeer het nogmaals.";
+"unlock.invalidMasterKey.title" = "Ongeldige Hoofdsleutel";
+"unlock.invalidMasterKey.message" = "Er lijkt een probleem met uw hoofdsleutel te zijn. Gelieve contact op te nemen voor assistentie.";
+
+"fileUpload.title" = "Opslaan naar Cryptomator";
+"fileUpload.file" = "Bestand";
+"fileUpload.file.filename" = "Bestandsnaam";
+"fileUpload.uploadLocation" = "Bewaar Locatie";
+"fileUpload.uploadLocation.locationChooser" = "Kies Map…";
+
+/* Cryptomator */
+
+"migration.askToUpgrade.title" = "Migratie Vereist";
+"migration.askToUpgrade.message" = "Deze kluis dient gemigreerd te worden naar een nieuwe indeling. \"%@\" zal worden hernoemd naar \"%@\".";
+"migration.proceed" = "Migreer";
+"migration.progressStatus" = "Migreren…";
+
+"vaultBrowser.uploadFile.photos" = "Foto's";
+"vaultBrowser.uploadFile.progressStatus" = "Voorbereiden…";
+"vaultBrowser.uploadFile.nothingUploadedWarning" = "Er is niets geüpload.";
+
+"settings.title" = "Instellingen";
+"settings.autoLock" = "Auto-Lock";
+"settings.autoLock.instant" = "Meteen";
+"settings.autoLock.after1Minute" = "1 Minuut";
+"settings.autoLock.after2Minutes" = "2 Minuten";
+"settings.autoLock.after5Minutes" = "5 Minuten";
+"settings.autoLock.after10Minutes" = "10 minuten";
+"settings.cloudServices" = "Cloud diensten";
+"settings.touchId" = "Touch ID";
+"settings.appInformation" = "Over Cryptomator";
+"settings.supportSite" = "Support Site";
+"settings.sendFeedback" = "Stuur Feedback";
+"settings.rateApp" = "Beoordeel App";
+
+"cloudServicesSettings.title" = "Cloud diensten";
+"cloudServicesSettings.row.initialState" = "Gereedmaken van %@…";
+"cloudServicesSettings.row.loggedOutState" = "Inloggen %@";
+"cloudServicesSettings.row.loggedInState" = "Uitloggen %@";
+"cloudServicesSettings.section.footer.loggedInState" = "Ingelogd als %@";
+"cloudServicesSettings.row.multipleAccounts" = "%@ Verbindingen";
+"cloudServicesSettings.row.iCloudDrive" = "iCloud Drive Informatie";
+"cloudServicesSettings.iCloudDrive.message" = "U kunt uw iCloud Drive account niet vanuit hier managen. U dient in- en uit te loggen vanuit de iOS instellingen.";
+
+"touchIdSettings.title" = "Touch ID";
+"touchIdSettings.activate" = "Activeer Touch ID";
+
+"appInformation.title" = "Versie %@ (%@)";
+
+"supportSite.url" = "https://cryptomator.org/contact/";
+
+"sendFeedback.email" = "support@cryptomator.org";
+"sendFeedback.subject" = "Feedback";
+
+"addVault.title" = "Toevoegen Kluis";
+"addVault.onboarding" = "Versleutel je cloud door een nieuwe kluis te creeeren of een bestaande toe te voegen.";
+"addVault.createNewVault" = "Creeer nieuwe kluis";
+"addVault.addExistingVault" = "Voeg bestaande kluis toe";
+
+"storageTypeChooser.title" = "Selecteer Cloud dienst";
+
+"cloudChooser.footer.empty" = "U heeft nog geen %@ verbindingen ingesteld. Gebruik de \"+\" knop rechtsonder om een verblinding in te stellen.";
+"cloudChooser.remove.confirmation.title" = "Weet u zeker dat u %@ wil verwijderen?";
+"cloudChooser.remove.confirmation.remove" = "Verwijder deze Cloud dienst";
+
+"passwordSetter.title" = "Stel wachtwoord in";
+"passwordSetter.password" = "Wachtwoord";
+"passwordSetter.retypedPassword" = "Voer wachtwoord opnieuw in";
+"passwordSetter.footer" = "BELANGRIJK: indien u uw wachtwoord vergeet is het onmogelijk om uw data/informatie te herstellen.";
+
+"vaultChooser.prompt" = "Selecteer een bestaande kluis.";
+"vaultChooser.footer.isVault" = "Dit is een kluis. Selecteer het \"masterkey.cryptomator\" bestand om deze kluis toe te voegen.";
+
+/* WebDAV */
+
+"webDavAuthentication.title" = "WebDAV";
+"webDavAuthentication.url" = "URL";
+"webDavAuthentication.username" = "Gebruikersnaam";
+"webDavAuthentication.password" = "Wachtwoord";
+"webDavAuthentication.authenticate.progressStatus" = "Bezig met authenticeren…";
+
+"webDavClient.error.unsupportedProtocol" = "De server lijkt geen WebDAV te ondersteunen.";
+"webDavClient.error.connectionFailed" = "Het tot stand brengen van de verbinding is mislukt. Gelieve uw gegevens te controleren.";
+"webDavClient.error.authFailed" = "Onbekende gebruikersnaam en/of wachtwoord.";
+"webDavClient.error.notFound" = "Bron niet gevonden.";
+"webDavClient.error.methodNotAllowed" = "HTTP methode \"%@\" is niet toegestaan.";
+"webDavClient.error.conflict" = "Conflict in verzoek voor \"%@\".";
+"webDavClient.error.httpStatusCode" = "HTTP fout %d.";
+
+/* XLForm */
+
+"XLFormViewController_ValidationErrorTitle" = "Oeps!";
+"%@ can't be empty" = "%@ kan niet leeg zijn.";
+
+"notEqualToOldFilenameValidator.invalidMessage" = "%@ kan niet dezelfde zijn als de oude.";
+"allowedCharactersInFilenameValidator.invalidMessage" = "%@ bevat niet-toegestane tekens.";
+"uniqueFilenamesValidator.invalidMessage" = "Bestandsnamen dienen uniek te zijn, gelieve de kopieën te hernoemen.";
+"matchingPasswordsValidator.invalidMessage" = "Het wachtwoord komt niet overeen met het opnieuw ingevoerde wachtwoord.";
+"urlHostNotNull.invalidMessage" = "URL is ongeldig. Tenminste een hostnaam is noodzakelijk.";
+"conformsToUrlScheme.invalidMessage" = "URL is ongeldig. Alleen deze schema's zijn toegestaan: %@";
+
+/* Mock */
+
+"mock.vault1.name" = "Top Secret";
+"mock.vault1.path" = "Top Secret.cryptomator";
+"mock.vault2.name" = "Project X";
+"mock.vault2.path" = "/Projecten/Project X.cryptomator";
+"mock.vault3.name" = "Contracten";
+"mock.vault3.path" = "/Documenten/Contracten.cryptomator";
+"mock.vault4.name" = "Reis naar Amsterdam";
+"mock.vault4.path" = "/Vakanties/Reis naar Amsterdam.cryptomator";
+"mock.vault5.name" = "Foto's";
+"mock.vault5.path" = "/Persoonlijk/Foto's.cryptomator";
+
+"mock.file1.name" = "Administratie.numbers";
+"mock.file2.name" = "Definitieve Presentatie.key";
+"mock.file3.name" = "Huiswerk.docx";
+"mock.file4.name" = "ID kaart.pdf";
+"mock.file5.name" = "Kat likt lolly.mov";
+"mock.folder1.name" = "Vertrouwelijk Project";
+"mock.folder2.name" = "Rekeningen";
+"mock.folder3.name" = "Certificaten";
