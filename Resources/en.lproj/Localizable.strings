@@ -98,12 +98,12 @@
 "unlock.progressStatus" = "Unlocking…";
 "unlock.unlock" = "Unlock";
 "unlock.password" = "Password";
+"unlock.invalidMasterKey.title" = "Invalid Masterkey";
+"unlock.invalidMasterKey.message" = "There is an error with your masterkey. Please ask us for support!";
 "unlock.versionMismatch.title" = "Version Mismatch";
 "unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
 "unlock.wrongPassword.title" = "Wrong Password";
 "unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
-"unlock.invalidMasterKey.title" = "Invalid Masterkey";
-"unlock.invalidMasterKey.message" = "There is an error with your masterkey. Please ask us for support!";
 
 "fileUpload.title" = "Save to Cryptomator";
 "fileUpload.file" = "File";

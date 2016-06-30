@@ -98,12 +98,12 @@
 "unlock.progressStatus" = "Openen…";
 "unlock.unlock" = "Open";
 "unlock.password" = "Wachtwoord";
+"unlock.invalidMasterKey.title" = "Ongeldige Hoofdsleutel";
+"unlock.invalidMasterKey.message" = "Er lijkt een probleem met uw hoofdsleutel te zijn. Gelieve contact op te nemen voor assistentie.";
 "unlock.versionMismatch.title" = "Versieverschil";
 "unlock.versionMismatch.message" = "Ongeschikte kluis. Deze kluis is gemaakt met een andere versie van Cryptomator.";
 "unlock.wrongPassword.title" = "Verkeerd wachtwoord";
 "unlock.wrongPassword.message" = "U heeft een verkeerd wachtwoord ingevoerd. Probeer het nogmaals.";
-"unlock.invalidMasterKey.title" = "Ongeldige Hoofdsleutel";
-"unlock.invalidMasterKey.message" = "Er lijkt een probleem met uw hoofdsleutel te zijn. Gelieve contact op te nemen voor assistentie.";
 
 "fileUpload.title" = "Opslaan naar Cryptomator";
 "fileUpload.file" = "Bestand";

@@ -98,12 +98,12 @@
 "unlock.progressStatus" = "Entsperre…";
 "unlock.unlock" = "Entsperren";
 "unlock.password" = "Passwort";
+"unlock.invalidMasterKey.title" = "Ungültiger Masterkey";
+"unlock.invalidMasterKey.message" = "Es ist ein Fehler mit dem Masterkey aufgetreten. Bitte wenden Sie sich an unseren Support!";
 "unlock.versionMismatch.title" = "Versionskonflikt";
 "unlock.versionMismatch.message" = "Dieser Tresor wird nicht unterstützt, da dieser mit einer anderen Version von Cryptomator erstellt wurde.";
 "unlock.wrongPassword.title" = "Falsches Passwort";
 "unlock.wrongPassword.message" = "Sie haben ein falsches Passwort eingegeben. Bitte versuchen Sie es erneut!";
-"unlock.invalidMasterKey.title" = "Ungültiger Masterkey";
-"unlock.invalidMasterKey.message" = "Es ist ein Fehler mit dem Masterkey aufgetreten. Bitte wenden Sie sich an unseren Support!";
 
 "fileUpload.title" = "In Cryptomator speichern";
 "fileUpload.file" = "Datei";
