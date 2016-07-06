@@ -68,9 +68,10 @@
 "file.delete.confirmation.delete" = "Datei löschen";
 "file.delete.progressStatus" = "Lösche Datei…";
 
-"photo.filename" = "Foto %@.jpg";
-"video.filename" = "Video %@.mov";
-"text.filename" = "Text %@.txt";
+"photo.filename" = "Foto %@.%@";
+"video.filename" = "Video %@.%@";
+"text.filename" = "Text %@.%@";
+"unknown.filename" = "Ohne Titel %@";
 
 "directoryBrowser.footer.emptyFolder" = "Ordner ist leer";
 "directoryBrowser.error.notFound.description" = "„%@“ konnte nicht gefunden werden.";

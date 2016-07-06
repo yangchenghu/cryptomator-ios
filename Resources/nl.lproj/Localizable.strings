@@ -68,9 +68,10 @@
 "file.delete.confirmation.delete" = "Verwijder dit Bestand";
 "file.delete.progressStatus" = "Bestand verwijderen…";
 
-"photo.filename" = "Foto %@.jpg";
-"video.filename" = "Video %@.mov";
-"text.filename" = "Tekst %@.txt";
+"photo.filename" = "Foto %@.%@";
+"video.filename" = "Video %@.%@";
+"text.filename" = "Tekst %@.%@";
+"unknown.filename" = "Naamloos %@";
 
 "directoryBrowser.footer.emptyFolder" = "Map is leeg";
 "directoryBrowser.error.notFound.description" = "\"%@\" kon niet gevonden worden.";
