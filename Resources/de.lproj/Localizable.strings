@@ -15,7 +15,7 @@
 /* CryptomatorCommon */
 
 "alert.unableToAuthenticate.title" = "Authentifizierung nicht möglich";
-"alert.unableToAuthenticate.message" = "Bitten authentifizieren Sie sich bei %@ mit der Cryptomator-App.";
+"alert.unableToAuthenticate.message" = "Bitte authentifizieren Sie sich bei %@ mit der Cryptomator-App.";
 "alert.unableToUploadFile.title" = "Datei hochladen nicht möglich";
 "alert.unableToUploadFile.message" = "Sie haben keinen Tresor eingerichtet. Bitte legen Sie zuerst einen Tresor mit der Cryptomator-App an.";
 "alert.replaceFile.title" = "Datei ersetzen?";
