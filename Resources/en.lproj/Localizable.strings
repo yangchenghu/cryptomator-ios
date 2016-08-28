@@ -133,8 +133,8 @@
 "settings.cloudServices" = "Cloud Services";
 "settings.touchId" = "Touch ID";
 "settings.appInformation" = "About Cryptomator";
-"settings.supportSite" = "Support Site";
-"settings.sendFeedback" = "Send Feedback";
+"settings.help" = "Help & Support";
+"settings.contact" = "Contact";
 "settings.rateApp" = "Rate App";
 
 "cloudServicesSettings.title" = "Cloud Services";
@@ -151,10 +151,9 @@
 
 "appInformation.title" = "Version %@ (%@)";
 
-"supportSite.url" = "https://cryptomator.org/contact/";
+"help.url" = "https://cryptomator.org/help/";
 
-"sendFeedback.email" = "support@cryptomator.org";
-"sendFeedback.subject" = "Feedback";
+"contact.url" = "https://cryptomator.org/contact/";
 
 "addVault.title" = "Add Vault";
 "addVault.onboarding" = "Encrypt your cloud by creating a new vault or add an existing one.";

@@ -133,8 +133,8 @@
 "settings.cloudServices" = "Cloud-Dienste";
 "settings.touchId" = "Touch ID";
 "settings.appInformation" = "Über Cryptomator";
-"settings.supportSite" = "Support-Seite";
-"settings.sendFeedback" = "Feedback senden";
+"settings.help" = "Hilfe & Support";
+"settings.contact" = "Kontakt";
 "settings.rateApp" = "App bewerten";
 
 "cloudServicesSettings.title" = "Cloud-Dienste";
@@ -151,10 +151,9 @@
 
 "appInformation.title" = "Version %@ (%@)";
 
-"supportSite.url" = "https://cryptomator.org/de/contact/";
+"help.url" = "https://cryptomator.org/de/help/";
 
-"sendFeedback.email" = "support@cryptomator.org";
-"sendFeedback.subject" = "Feedback";
+"contact.url" = "https://cryptomator.org/de/contact/";
 
 "addVault.title" = "Tresor hinzufügen";
 "addVault.onboarding" = "Verschlüsseln Sie Ihre Cloud, indem Sie einen neuen Tresor anlegen oder einen vorhandenen hinzufügen.";

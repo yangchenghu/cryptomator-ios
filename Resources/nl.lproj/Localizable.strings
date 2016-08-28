@@ -133,8 +133,8 @@
 "settings.cloudServices" = "Cloud diensten";
 "settings.touchId" = "Touch ID";
 "settings.appInformation" = "Over Cryptomator";
-"settings.supportSite" = "Support Site";
-"settings.sendFeedback" = "Stuur Feedback";
+"settings.help" = "Hulp & Support";
+"settings.contact" = "Contact";
 "settings.rateApp" = "Beoordeel App";
 
 "cloudServicesSettings.title" = "Cloud diensten";
@@ -151,10 +151,9 @@
 
 "appInformation.title" = "Versie %@ (%@)";
 
-"supportSite.url" = "https://cryptomator.org/contact/";
+"help.url" = "https://cryptomator.org/help/";
 
-"sendFeedback.email" = "support@cryptomator.org";
-"sendFeedback.subject" = "Feedback";
+"contact.url" = "https://cryptomator.org/contact/";
 
 "addVault.title" = "Toevoegen Kluis";
 "addVault.onboarding" = "Versleutel je cloud door een nieuwe kluis te creeeren of een bestaande toe te voegen.";
