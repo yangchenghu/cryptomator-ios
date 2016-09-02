@@ -50,7 +50,7 @@
 "folder.create" = "Maak map";
 "folder.create.progressStatus" = "Maken van map…";
 
-"file.lastModified" = "laatst gewijzigd: \"%@\"";
+"file.lastModified" = "gewijzigd %@";
 "file.download.progressStatus" = "Inlezen bestand…";
 "file.download.progressStatus.downloading" = "Downloaden bestand…";
 "file.download.progressStatus.authenticating" = "Authenticeren bestand…";

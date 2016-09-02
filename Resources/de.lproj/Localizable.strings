@@ -50,7 +50,7 @@
 "folder.create" = "Ordner anlegen";
 "folder.create.progressStatus" = "Lege Ordner an…";
 
-"file.lastModified" = "zuletzt modifiziert: %@";
+"file.lastModified" = "geändert %@";
 "file.download.progressStatus" = "Lade Datei…";
 "file.download.progressStatus.downloading" = "Lade Datei herunter…";
 "file.download.progressStatus.authenticating" = "Authentifiziere Datei…";

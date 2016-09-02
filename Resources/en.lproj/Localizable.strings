@@ -50,7 +50,7 @@
 "folder.create" = "Create Folder";
 "folder.create.progressStatus" = "Creating Folder…";
 
-"file.lastModified" = "last modified: %@";
+"file.lastModified" = "modified %@";
 "file.download.progressStatus" = "Loading File…";
 "file.download.progressStatus.downloading" = "Downloading File…";
 "file.download.progressStatus.authenticating" = "Authenticating File…";
