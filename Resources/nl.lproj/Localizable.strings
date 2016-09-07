@@ -26,7 +26,7 @@
 "alert.trustSslCertificate.action.dontTrust" = "Niet vertrouwen";
 
 "authentication.iCloudDrive.progressStatus" = "Het gebruik van iCloud Drive voorbereiden…";
-"authentication.oneDrive.progressStatus" = "Het gebruik van OneDrive voorbereiden…";
+"authentication.amazonDrive.progressStatus" = "Het gebruik van Amazon Drive voorbereiden…";
 "authentication.error.notReachable" = "%@ is niet beschikbaar. Probeer later opnieuw!";
 "authentication.error.failed" = "%@ authenticatie mislukt.";
 
@@ -74,6 +74,7 @@
 "unknown.filename" = "Naamloos %@";
 
 "directoryBrowser.footer.emptyFolder" = "Map is leeg";
+"directoryBrowser.footer.noSearchResults" = "Geen resultaten";
 "directoryBrowser.error.notFound.description" = "\"%@\" kon niet gevonden worden.";
 "directoryBrowser.error.alreadyExists.description" = "\"%@\" reeds in gebruik.";
 "directoryBrowser.error.uploadFile.description" = "Het uploaden van \"%@\" is mislukt.";
@@ -122,6 +123,8 @@
 "vaultBrowser.uploadFile.photos" = "Foto's";
 "vaultBrowser.uploadFile.progressStatus" = "Voorbereiden…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Er is niets geüpload.";
+"vaultBrowser.changeSortMode.sortByName" = "Sorteren op naam";
+"vaultBrowser.changeSortMode.sortByDate" = "Sorteren op datum";
 
 "settings.title" = "Instellingen";
 "settings.autoLock" = "Auto-Lock";

@@ -26,7 +26,7 @@
 "alert.trustSslCertificate.action.dontTrust" = "Don't Trust";
 
 "authentication.iCloudDrive.progressStatus" = "Initializing iCloud Drive…";
-"authentication.oneDrive.progressStatus" = "Initializing OneDrive…";
+"authentication.amazonDrive.progressStatus" = "Initializing Amazon Drive…";
 "authentication.error.notReachable" = "%@ is not reachable. Try again later!";
 "authentication.error.failed" = "%@ authentication failed.";
 
@@ -73,7 +73,8 @@
 "text.filename" = "Text %@.%@";
 "unknown.filename" = "Untitled %@";
 
-"directoryBrowser.footer.emptyFolder" = "Folder is empty";
+"directoryBrowser.footer.emptyFolder" = "Folder is Empty";
+"directoryBrowser.footer.noSearchResults" = "No Results";
 "directoryBrowser.error.notFound.description" = "\"%@\" could not be found.";
 "directoryBrowser.error.alreadyExists.description" = "\"%@\" already exists.";
 "directoryBrowser.error.uploadFile.description" = "Uploading \"%@\" failed.";
@@ -105,6 +106,8 @@
 "unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
 "unlock.wrongPassword.title" = "Wrong Password";
 "unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
+"unlock.unauthenticKeyVersion.title" = "Unauthentic Key Version";
+"unlock.unauthenticKeyVersion.message" = "The version of your masterkey is not authentic. Please ask us for support!";
 
 "fileUpload.title" = "Save to Cryptomator";
 "fileUpload.file" = "File";
@@ -122,6 +125,8 @@
 "vaultBrowser.uploadFile.photos" = "Photos";
 "vaultBrowser.uploadFile.progressStatus" = "Preparing…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Nothing has been uploaded.";
+"vaultBrowser.changeSortMode.sortByName" = "Sort by Name";
+"vaultBrowser.changeSortMode.sortByDate" = "Sort by Date";
 
 "settings.title" = "Settings";
 "settings.autoLock" = "Auto-Lock";
